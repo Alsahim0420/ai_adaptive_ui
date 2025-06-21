@@ -103,7 +103,7 @@ class AiLayoutSuggestor {
             ),
           ),
           const SizedBox(height: 20),
-          ElevatedButton(
+          const ElevatedButton(
             onPressed: null, // Deshabilitado para el ejemplo
             child: Text('Enviar'),
           ),
