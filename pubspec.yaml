@@ -6,14 +6,12 @@ repository: https://github.com/Alsahim0420/ai_adaptive_ui
 issue_tracker: https://github.com/Alsahim0420/ai_adaptive_ui/issues
 
 topics:
-  - responsive
-  - adaptive
   - flutter
+  - adaptive
+  - responsive
   - layout
   - ai
-  - material-design
-  - ui
-  - widgets
+
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
