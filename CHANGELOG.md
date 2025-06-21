@@ -5,6 +5,18 @@ Todas las notables mejoras y cambios en este proyecto serán documentados en est
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 y este proyecto adhiere al [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-06-20
+
+### Added
+- Comentarios públicos completos para clases exportadas.
+- Soporte para todos los tipos de layout sugeridos por IA: dashboard, onboarding, errorScreen, etc.
+- Menú desplegable interactivo en el `example/` para probar todos los casos.
+
+### Fixed
+- Formato automático aplicado con `dart format .`
+- `flutter analyze` corregido para análisis estático limpio.
+- Mejora de estilo y convenciones de código Dart.
+
 ## [0.1.0] - 2025-01-20
 
 ### Added

@@ -1,6 +1,6 @@
 name: ai_adaptive_ui
 description: "Una librería Flutter moderna para construir interfaces adaptativas que responden automáticamente a diferentes tamaños de pantalla, orientaciones, idiomas y densidades de píxeles. Incluye widgets inteligentes como AdaptiveLayout, AdaptiveCard, y preparado para integración con IA."
-version: 0.1.0
+version: 1.0.1
 homepage: https://github.com/Alsahim0420/ai_adaptive_ui
 repository: https://github.com/Alsahim0420/ai_adaptive_ui
 issue_tracker: https://github.com/Alsahim0420/ai_adaptive_ui/issues
