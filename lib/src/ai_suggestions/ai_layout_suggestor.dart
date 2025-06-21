@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Tipos de layouts predefinidos que pueden ser sugeridos.
+/// Define los tipos de layouts predefinidos que pueden ser sugeridos por [AiLayoutSuggestor].
 enum SuggestedLayoutType {
   /// Un layout para mostrar un perfil de usuario.
   profile,
@@ -27,9 +27,14 @@ enum SuggestedLayoutType {
   unknown,
 }
 
-/// Una clase que sugiere widgets predefinidos basados en un tipo de layout.
+/// Una clase que sugiere y construye widgets de UI predefinidos.
+///
+/// Esto simula un sistema de sugerencias de IA, proporcionando plantillas de UI
+/// listas para usar basadas en un [SuggestedLayoutType].
 class AiLayoutSuggestor {
   /// Sugiere y construye un widget basado en el [SuggestedLayoutType] proporcionado.
+  ///
+  /// Devuelve un widget predefinido para cada caso del enum.
   ///
   /// Ejemplo de uso:
   /// ```dart

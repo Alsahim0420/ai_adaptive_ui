@@ -16,7 +16,7 @@ description: "A new Flutter project."
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
@@ -32,8 +32,7 @@ dependencies:
     sdk: flutter
 
   # Local package dependency
-  ai_adaptive_ui:
-    path: ../
+  ai_adaptive_ui: ^0.1.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

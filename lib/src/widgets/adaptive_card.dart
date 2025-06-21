@@ -1,12 +1,34 @@
 import 'package:flutter/material.dart';
 import '../core/adaptive_context.dart';
 
+/// Una tarjeta que adapta su layout según el tamaño de la pantalla.
+///
+/// En pantallas pequeñas (`isSmallScreen`), muestra un layout de [Column].
+/// En pantallas más grandes, muestra un layout de [Row].
+///
+/// Ejemplo:
+/// ```dart
+/// AdaptiveCard(
+///   title: 'Título de la Tarjeta',
+///   subtitle: 'Este es el subtítulo de la tarjeta.',
+///   icon: Icons.star,
+///   onTap: () => print('Tarjeta presionada!'),
+/// )
+/// ```
 class AdaptiveCard extends StatelessWidget {
+  /// El título principal de la tarjeta.
   final String title;
+
+  /// El subtítulo o texto descriptivo de la tarjeta.
   final String subtitle;
+
+  /// El ícono que se muestra en la tarjeta.
   final IconData icon;
+
+  /// La función a ejecutar cuando se presiona la tarjeta.
   final VoidCallback? onTap;
 
+  /// Crea una instancia de [AdaptiveCard].
   const AdaptiveCard({
     super.key,
     required this.title,

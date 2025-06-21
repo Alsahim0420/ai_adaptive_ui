@@ -4,9 +4,10 @@ packages:
   ai_adaptive_ui:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
+      name: ai_adaptive_ui
+      sha256: c59e030ccd2f071164f91e21eb8da7e60c375902c171f0083076294c9f248205
+      url: "https://pub.dev"
+    source: hosted
     version: "0.1.0"
   async:
     dependency: transitive
